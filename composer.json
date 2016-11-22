@@ -1,0 +1,30 @@
+{
+    "name": "psbhanu/whatsapi",
+    "description": "Wrapper for Whatsapp messenger",
+    "license": "MIT",
+    "keywords": [
+        "whatsapp",
+        "whatsapi",
+        "laravel",
+        "chat",
+        "messenger"
+    ],
+    "authors": [
+        {
+            "name": "psbhanu",
+            "email": "psbhanu@outlook.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",        
+        "whatsapp/chat-api": "^3.2"
+    },
+    "suggest": {
+        "illuminate/support": "For use on Laravel 5."
+    },
+    "autoload": {
+        "psr-4": {
+            "psbhanu\\Whatsapi\\": "src/"
+        }
+    }
+}
